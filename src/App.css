@@ -77,4 +77,7 @@
   .footer {
     height: 40px; /* Reduce la altura del pie de página */
   }
+  .aside-left{
+    width: 92%;
+  }
 }

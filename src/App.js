@@ -44,7 +44,7 @@ const Footer = () => {
 
 const AsideLeft = () => {
   return (
-    <aside className="aside-left">
+    <aside className="bienvenida">
       <p>Barra lateral izquierda</p>
     </aside>
   );

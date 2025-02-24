@@ -34,7 +34,8 @@
 }
 
 .bienvenida {
-  width: 250px;
+  flex-basis: 250px;
+
   background-color: #e74c3c;
   color: white;
   padding: 20px;
@@ -68,6 +69,9 @@
   .aside-right-container {
     width: 100%; /* Ocupan todo el ancho */
   }
+  .bienvenida{
+    max-height: fit-content;
+  }
 }
 
 /* Media query para pantallas pequeñas (móviles) */
@@ -90,6 +94,8 @@
     height: fit-content;
   }
 
-
+  .bienvenida{
+    max-height: fit-content;
+  }
 
 }

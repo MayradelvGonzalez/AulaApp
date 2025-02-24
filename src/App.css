@@ -6,7 +6,7 @@
   flex-wrap: wrap;
 }
 
-.header {
+.menu {
   background-color: #3498db;
   color: white;
   padding: 20px;
@@ -33,7 +33,7 @@
   height: 60px;
 }
 
-.aside-left {
+.bienvenida {
   width: 250px;
   background-color: #e74c3c;
   color: white;
@@ -72,7 +72,7 @@
 
 /* Media query para pantallas pequeñas (móviles) */
 @media (max-width: 480px) {
-  .header {
+  .menu {
     height: 58.5px; 
 
   }

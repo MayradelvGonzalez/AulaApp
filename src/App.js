@@ -20,7 +20,7 @@ const App = () => {
 
 const Header = () => {
   return (
-    <header className="header">
+    <header className="menu">
       <h1>Encabezado</h1>
     </header>
   );

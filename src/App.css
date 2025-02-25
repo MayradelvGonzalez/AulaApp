@@ -12,6 +12,7 @@
   padding: 20px;
   text-align: center;
   height: 80px;
+
 }
 
 .main-content {
@@ -23,6 +24,14 @@
   flex-grow: 1;
   padding: 20px;
   background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  max-width: fit-content;
+}
+.main p{
+  padding-bottom: 3em;
 }
 
 .footer {

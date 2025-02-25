@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-
+import Carrousel from './carrousel/Carrousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
 const App = () => {
   return (
     <div className="app-container">
@@ -30,6 +31,8 @@ const MainContent = () => {
   return (
     <main className="main">
       <p>Contenido principal</p>
+<div><Carrousel /></div>
+       
     </main>
   );
 };

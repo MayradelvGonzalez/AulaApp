@@ -21,16 +21,17 @@
   .menu{
     display: flex;
     align-items:center;
-    flex-wrap:wrap ;
+    flex-wrap:wrap;
   }
   .menu a{
     color: black;
     text-decoration: none;
-    padding: 10px;
+    padding: 7px;
     border:0.2em green solid;
     margin: 0.2em;
     color:white;
     background-color:gray;
+
   }
 
   .menu a:hover{

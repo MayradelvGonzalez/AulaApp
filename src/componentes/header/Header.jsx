@@ -58,7 +58,7 @@ const Header = () => {
                 </div>
                 <div className='menu'>
                 <a href="/" className="back-button" aria-label="inicio">Inicio</a>
-                <a href="/sector1" className="button" aria-label="5° grado">5° grado</a>
+                <a href="/secto" className="button" aria-label="5° grado">5° grado</a>
                 <a href="/sector2" className="button" aria-label="6° grado">6° grado</a>
 
                 </div>

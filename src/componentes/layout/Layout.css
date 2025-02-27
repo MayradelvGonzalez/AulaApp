@@ -1,0 +1,20 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el layout ocupe toda la altura */
+  }
+  
+  .content {
+    display: flex;
+    flex-grow: 1; /* El contenido principal se expande */
+  }
+  
+  .content > * {
+    flex: 1; /* Los asides y el main se distribuyen equitativamente */
+  }
+  
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+    }
+  }

@@ -1,110 +1,20 @@
-.app-container {
+.Layout {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  width: 100%;
-  flex-wrap: wrap;
+  min-height: 100vh; /* Asegura que el layout ocupe toda la altura */
 }
 
-.menu {
-  background-color: #3498db;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  height: 80px;
-
-}
-
-.main-content {
+.content {
   display: flex;
-  flex-grow: 1;
+  flex-grow: 1; /* El contenido principal se expande */
 }
 
-.main {
-  flex-grow: 1;
-  padding: 20px;
-  background-color: #f0f0f0;
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  flex-direction: column;
-  max-width: fit-content;
-}
-.main p{
-  padding-bottom: 3em;
+.content > * {
+  flex: 1; /* Los asides y el main se distribuyen equitativamente */
 }
 
-.footer {
-  background-color: #2ecc71;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  height: 60px;
-}
-
-.bienvenida {
-  flex-basis: 250px;
-
-  background-color: #e74c3c;
-  color: white;
-  padding: 20px;
-}
-
-.aside-right-container {
-  display: flex;
-  flex-direction: column;
-  width: 250px;
-}
-
-.aside-right-top {
-  flex-grow: 1;
-  padding: 20px;
-  background-color: #f39c12;
-}
-
-.aside-right-bottom {
-  flex-grow: 1;
-  padding: 20px;
-  background-color: #9b59b6;
-}
-
-/* Media query para pantallas medianas (tabletas) */
 @media (max-width: 768px) {
-  .main-content {
-    flex-direction: column; /* Cambia a diseño vertical */
+  .content {
+    flex-direction: column; /* Cambia a columna en pantallas pequeñas */
   }
-
-  .aside-left,
-  .aside-right-container {
-    width: 100%; /* Ocupan todo el ancho */
-  }
-  .bienvenida{
-    max-height: fit-content;
-  }
-}
-
-/* Media query para pantallas pequeñas (móviles) */
-@media (max-width: 480px) {
-  .menu {
-    height: 58.5px; 
-
-  }
-
-  .footer {
-    height: 40px; 
-  }
-  .aside-left{
-    width: 89.5%;
-  }
-  .aside-right-bottom{
-    height: fit-content;
-  }
-  .aside-right-top{
-    height: fit-content;
-  }
-
-  .bienvenida{
-    max-height: fit-content;
-  }
-
 }

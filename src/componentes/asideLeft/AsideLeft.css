@@ -1,0 +1,16 @@
+.aside-left {
+    background-color: #e0e0e0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+
+ }
+
+ .aside-left img{
+    max-width: 100%;
+    height: auto;
+ }
+
+ .aside-left div{
+    margin-top:10px;
+ }
